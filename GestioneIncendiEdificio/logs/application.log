@@ -1,0 +1,138 @@
+11:23:50.303 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - Starting GestioneIncendiEdificioApplication using Java 17.0.7 with PID 19936 (C:\Users\antos\WORKSPACE FINAL\GestioneIncendiEdificio\target\classes started by antos in C:\Users\antos\WORKSPACE FINAL\GestioneIncendiEdificio)
+11:23:50.307 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - No active profile set, falling back to 1 default profile: "default"
+11:23:50.343 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+11:23:50.344 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+11:23:50.854 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:23:50.903 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+11:23:51.321 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:23:51.333 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:23:51.333 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:23:51.396 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:23:51.396 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1052 ms
+11:23:51.523 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:23:51.580 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+11:23:51.582 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+11:23:51.726 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:23:51.875 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:23:51.893 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:23:52.054 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e6e48cb
+11:23:52.056 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:23:52.098 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@49631e26
+11:23:52.280 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:23:52.784 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:23:52.889 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:23:53.201 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:23:53.457 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:23:53.489 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:23:53.495 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - Started GestioneIncendiEdificioApplication in 3.481 seconds (process running for 4.09)
+11:23:53.498 [restartedMain] INFO  c.g.service.ProbeAlarmService - 
+
+11:23:53.498 [restartedMain] INFO  c.g.service.ProbeAlarmService - url salvato per la notificahttp://localhost:8081/api/GestionaleIncendiCentrale/alarm
+11:24:44.854 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+11:24:44.861 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:24:44.867 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+11:24:44.869 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:24:44.872 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:24:44.918 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - Starting GestioneIncendiEdificioApplication using Java 17.0.7 with PID 19936 (C:\Users\antos\WORKSPACE FINAL\GestioneIncendiEdificio\target\classes started by antos in C:\Users\antos\WORKSPACE FINAL\GestioneIncendiEdificio)
+11:24:44.918 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - No active profile set, falling back to 1 default profile: "default"
+11:24:45.073 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:24:45.080 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+11:24:45.139 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:24:45.139 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:24:45.139 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+11:24:45.152 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:24:45.152 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 233 ms
+11:24:45.175 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:24:45.179 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:24:45.179 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:24:45.180 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+11:24:45.336 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@2936c52e
+11:24:45.336 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+11:24:45.343 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7f5f762
+11:24:45.350 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+11:24:45.367 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:24:45.377 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:24:45.417 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:24:45.480 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+11:24:45.490 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+11:24:45.492 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - Started GestioneIncendiEdificioApplication in 0.591 seconds (process running for 56.087)
+11:24:45.495 [restartedMain] INFO  c.g.service.ProbeAlarmService - 
+
+11:24:45.495 [restartedMain] INFO  c.g.service.ProbeAlarmService - url salvato per la notifica http://localhost:8081/api/GestionaleIncendiCentrale/alarm
+11:24:45.496 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+11:25:47.070 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:25:47.071 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:25:47.072 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+11:25:47.211 [http-nio-8080-exec-2] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+11:25:47.211 [http-nio-8080-exec-2] WARN  c.g.controller.ProbeController - Probe(id=4, lat=1245253, lon=2134244, smokeLevel=7, orientation=NORTH, floor=0)
+11:28:12.753 [http-nio-8080-exec-6] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+11:28:12.753 [http-nio-8080-exec-6] WARN  c.g.controller.ProbeController - Probe(id=4, lat=1245253, lon=2134244, smokeLevel=7, orientation=NORTH, floor=0)
+11:28:12.815 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.persistence.EntityNotFoundException: ID param doesnt match with request body probe ID]
+11:28:35.194 [http-nio-8080-exec-5] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+11:28:35.194 [http-nio-8080-exec-5] WARN  c.g.controller.ProbeController - Probe(id=5, lat=1245253, lon=2134244, smokeLevel=7, orientation=NORTH, floor=0)
+11:31:28.884 [http-nio-8080-exec-8] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+11:31:28.885 [http-nio-8080-exec-8] WARN  c.g.controller.ProbeController - Probe(id=5, lat=1245253, lon=2134244, smokeLevel=8, orientation=NORTH, floor=0)
+11:45:10.636 [http-nio-8080-exec-2] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+11:45:10.639 [http-nio-8080-exec-2] WARN  c.g.controller.ProbeController - Probe(id=7, lat=1245253, lon=2134244, smokeLevel=8, orientation=NORTH, floor=0)
+11:45:10.727 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.persistence.EntityNotFoundException: ID param doesnt match with request body probe ID]
+11:45:46.818 [http-nio-8080-exec-3] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+11:45:46.819 [http-nio-8080-exec-3] WARN  c.g.controller.ProbeController - Probe(id=7, lat=1245253, lon=2134244, smokeLevel=8, orientation=NORTH, floor=2)
+12:08:38.820 [http-nio-8080-exec-9] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+12:08:38.822 [http-nio-8080-exec-9] WARN  c.g.controller.ProbeController - Probe(id=9, lat=1245253, lon=2134244, smokeLevel=6, orientation=WEST, floor=7)
+12:09:45.094 [http-nio-8080-exec-1] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+12:09:45.094 [http-nio-8080-exec-1] WARN  c.g.controller.ProbeController - Probe(id=9, lat=1245253, lon=2134244, smokeLevel=8, orientation=WEST, floor=7)
+12:10:22.993 [http-nio-8080-exec-2] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+12:10:22.994 [http-nio-8080-exec-2] WARN  c.g.controller.ProbeController - Probe(id=9, lat=1245253, lon=2134244, smokeLevel=10, orientation=WEST, floor=7)
+12:43:47.476 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=27m1s266ms263µs).
+14:07:29.371 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h14m11s729ms921µs900ns).
+14:08:01.143 [RMI TCP Connection(67)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+14:08:01.200 [RMI TCP Connection(67)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:08:01.209 [RMI TCP Connection(67)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:08:01.233 [RMI TCP Connection(67)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:08:01.250 [RMI TCP Connection(67)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+14:08:01.252 [RMI TCP Connection(67)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+14:08:25.857 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - Starting GestioneIncendiEdificioApplication using Java 17.0.7 with PID 11452 (C:\Users\antos\WORKSPACE FINAL\GestioneIncendiEdificio\target\classes started by antos in C:\Users\antos\WORKSPACE FINAL\GestioneIncendiEdificio)
+14:08:25.860 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - No active profile set, falling back to 1 default profile: "default"
+14:08:25.894 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:08:25.894 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:08:26.381 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:08:26.438 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+14:08:27.413 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:08:27.428 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:08:27.428 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+14:08:27.487 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:08:27.487 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1593 ms
+14:08:27.600 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:08:27.656 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+14:08:27.659 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+14:08:27.812 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+14:08:27.951 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+14:08:27.965 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:08:28.123 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@118c7fec
+14:08:28.124 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:08:28.168 [restartedMain] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6a5893a5
+14:08:28.352 [restartedMain] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+14:08:28.842 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:08:29.025 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:08:29.316 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14:08:29.568 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:08:29.600 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:08:29.608 [restartedMain] INFO  c.g.GestioneIncendiEdificioApplication - Started GestioneIncendiEdificioApplication in 4.029 seconds (process running for 4.687)
+14:08:29.612 [restartedMain] INFO  c.g.service.ProbeAlarmService - 
+
+14:08:29.612 [restartedMain] INFO  c.g.service.ProbeAlarmService - url salvato per la notifica http://localhost:8081/api/GestionaleIncendiCentrale/alarm
+14:09:58.844 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:09:58.844 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:09:58.847 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+14:09:58.995 [http-nio-8080-exec-1] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+14:09:58.996 [http-nio-8080-exec-1] WARN  c.g.controller.ProbeController - Probe(id=9, lat=1245253, lon=2134244, smokeLevel=6, orientation=WEST, floor=7)
+14:10:52.817 [http-nio-8080-exec-4] WARN  c.g.controller.ProbeController - Danger Smoke level out of safe range!!
+14:10:52.818 [http-nio-8080-exec-4] WARN  c.g.controller.ProbeController - Probe(id=9, lat=1245253, lon=2134244, smokeLevel=8, orientation=WEST, floor=7)
+14:25:44.782 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m46s431ms231µs700ns).
+14:44:01.734 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+14:44:01.735 [RMI TCP Connection(27)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+14:44:01.743 [RMI TCP Connection(26)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:44:01.744 [RMI TCP Connection(26)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14:44:01.749 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:44:01.752 [RMI TCP Connection(26)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:44:01.755 [RMI TCP Connection(26)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

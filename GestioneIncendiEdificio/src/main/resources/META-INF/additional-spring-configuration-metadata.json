@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "probe.lat",
+    "type": "java.lang.Int",
+    "description": "A description for 'probe.lat'"
+  },
+  {
+    "name": "probe.lon",
+    "type": "java.lang.Int",
+    "description": "A description for 'probe.lon'"
+  }
+]}
